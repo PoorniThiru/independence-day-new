@@ -4,6 +4,10 @@
     color: white;
 }
 
+p{
+    text-align:justify;
+}
+
 iframe{
     position: relative;
     top: 100px;
