@@ -1,0 +1,207 @@
+
+.nav-item:hover{
+    background-color: black;
+    color: white;
+}
+
+iframe{
+    position: relative;
+    top: 100px;
+    left: 25px;
+    
+}
+
+#Celebration{
+    padding-top: 10vh;
+    color: #1459db;
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+
+}
+
+.disc{
+    padding-left: 10%;
+    
+}
+
+.India {
+    color: black;
+    font-family: Optima;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left:5%;
+    text-align: left;
+
+
+}
+
+.img5
+{
+    float: left;
+    margin-top: 7px;
+}
+
+.about{
+    color: #01050e;
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+
+
+
+
+}
+
+.bgself {
+    background-image: url("./image/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 35px;
+    font-family: 'Times New Roman', serif;
+    color: #1f02c5  
+}
+
+.hsty{
+    font-family: 'Times New Roman', serif ;
+    color: #1f02c5;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    
+
+
+}
+
+.cbrn{
+    margin-top: 10px;
+}
+
+.Sign{
+    background-image: url("/image/cbrn/footer.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+   padding-top: 10px;
+   padding-bottom: 20px;
+
+
+
+}
+.ceb{
+    margin-top: -7%;
+}
+
+
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+         width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%; 
+
+    
+      }
+      
+      .fa:hover {
+          background-color:white;
+          color: blue;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+
+      .mySlides {display: none;}
+    
+      .car {vertical-align: middle;}
+      
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Caption text */
+      .text {
+        color: #190202;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        font-weight: bolder;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #140000;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-weight: bolder;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .nav-change{
+        text-decoration: none;
+        color: #C5C3BE;
+      }
+      .active {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 3.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+      }
